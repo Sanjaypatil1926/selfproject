@@ -9,5 +9,14 @@
 <p>Built on Maven server</p>
 <p>Deployed to Tomcat automatically</p>
 <p>NOW IN THE LATEST BUILD, IM INTRODUCING WBHOOK SO THAT EVERYTIME I CHANGE OR GIVE COMMIT, IT WILL AUTO BUILD</P>
+<p>NOW I am pushing the updated code from local repo to remote repi i.e. github to check whether this commit will trigger the build in jenkins by using github WBHOOK</P>
+<%
+    LocalDateTime now = LocalDateTime.now();
+    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+    String currentTime = now.format(formatter);
+%>
+
+<p><b>Current Server Time:</b> <%= currentTime %></p>
+
 </body>
 </html>
