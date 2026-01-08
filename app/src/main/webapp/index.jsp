@@ -8,5 +8,6 @@
 <p>just very happy that I did it on my own(ofcourse with chatgpt)</p>
 <p>Built on Maven server</p>
 <p>Deployed to Tomcat automatically</p>
+<p>NOW IN THE LATEST BUILD, IM INTRODUCING WBHOOK SO THAT EVERYTIME I CHANGE OR GIVE COMMIT, IT WILL AUTO BUILD</P>
 </body>
 </html>
